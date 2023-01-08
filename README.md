@@ -43,7 +43,7 @@ Users will be able to login with their specific data to access posting, commenti
 | Email             | Name                   |Password|  Role  |
 | ----------------- | -----------------------|--------|----------|
 | admin@gmail.com | admin |  1234   | Administrator  |
-| sravanpthankappan@gmail.com|  1234     |  User   |
+| sravanpthankappan@gmail.com|  1234     |  User   |User
 
 
 
