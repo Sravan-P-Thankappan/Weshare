@@ -3,7 +3,6 @@ import React, { useState,useEffect} from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaGoogle } from "react-icons/fa";
 import axios from '../../Axios'
-import GoogleLogin from 'react-google-login'
 
 
 function Login() {
