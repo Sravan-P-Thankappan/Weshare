@@ -755,7 +755,8 @@ module.exports = {
     newChat:(req,res)=>{
         
         chatModel.findOne({members:{$all:[req.body.senderId,req.body.recieverId]}}).then((response)=>{
-            if(response){
+            if(response)
+            {
                 res.status(200).json(response)
             }
 

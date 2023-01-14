@@ -23,7 +23,7 @@ function Home() {
 
 
     useEffect(() => {
-        setSocket(io("http://localhost:7000"))
+        setSocket(io("https://weshare.fun",{path:"/notification/socket.io"}))
 
     }, [])
 

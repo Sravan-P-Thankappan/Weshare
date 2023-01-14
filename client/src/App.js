@@ -36,12 +36,12 @@ import { useEffect } from 'react';
 import Postmanagement from './Components/Admin/Postmanagement';
 
 
-const socket = require('socket.io-client')("ws://localhost:8900")
+const socket = require('socket.io-client')("https://weshare.fun",{path:"/socket/socket.io"})
 
 function App() {
 
   const user = localStorage.getItem('usertoken') ? jwtDecode(localStorage.getItem('usertoken')) : ''
-  console.log('apppppppppppppp  ', user)
+  
   useEffect(() => {
     socket?.emit('addUser', user?.id)
 

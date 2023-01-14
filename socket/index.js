@@ -3,8 +3,9 @@
 const {Server} = require("socket.io")
 
 const io = new Server(8900,{
+    path:"/socket/socket.io",
     cors:{
-        origin:"http://localhost:3000"
+        origin:"https://weshare.fun"
     }
 })
 

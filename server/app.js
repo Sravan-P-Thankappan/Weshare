@@ -29,8 +29,8 @@ app.use((req,res,next)=>{
 
 dbConnection()
 
-app.use('/',userRoute)
-app.use('/admin',adminRoute)
+app.use('/api/',userRoute)
+app.use('/api/admin',adminRoute)
 
 
 
