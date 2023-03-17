@@ -77,7 +77,7 @@ function Signup() {
         setFormError({ ...result })
 
         if (Object.keys(result).length === 0) {
-            console.log('if else', value);
+            
             axios.post('/register', value).then((response) => {
 
                 console.log('success     ', response);
